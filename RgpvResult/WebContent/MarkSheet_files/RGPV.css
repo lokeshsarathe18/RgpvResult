@@ -1,0 +1,399 @@
+﻿.Form_table TD {
+background-image:url(../Images/Table_bg.jpg);
+font-family:Verdana;
+text-align:left;
+font-size:8pt;
+margin:0;
+padding-bottom:5px;
+padding-top:5px;
+padding-left:0px;
+padding-right:0px;    
+}
+
+.Form_table1 TD {
+background-image:url(../Images/Table_bg.jpg);
+font-family:Verdana;
+text-align:Center;
+font-size:9pt;
+margin:0;
+}
+
+.TDH {
+background-image:url(../Images/bg-menu-main.png);
+font-family:Verdana;
+font-size:10pt;
+font-weight:700;
+color:#FFF;
+}
+
+.TDH1 {
+background-image:url(../Images/Nav_Bars_top.png);
+font-family:Verdana;
+font-size:10pt;
+font-weight:700;
+color:#FFF;
+}
+
+.gridview td {
+background:#FFF;
+border-bottom:solid 1px #C5DBF7;
+color:#333;
+text-align:left;
+font-family:Verdana;
+font-size:11px;
+padding:3px 2px;
+}
+
+.gridview td a {
+color:#3e3e3e;
+font:bold small "Verdana";
+text-decoration:none;
+padding:2px;
+}
+
+.gridview td a:hover {
+color:#000;
+font-weight:700;
+}
+
+.gridview th {
+background:#669;
+color:#FFF;
+font:small "Verdana";
+font-weight:700;
+letter-spacing:0;
+text-align:Left;
+padding:4px;
+}
+
+.gridview th a {
+color:#FFF;
+font:bold small "Segoe UI",Segoe,sans-serif;
+}
+
+.gridview th a:hover {
+color:#0F0;
+}
+
+.gridview tr.even td,.detailsview tr.even td {
+background:#FBFCF5;
+}
+
+.gridview tr.header {
+background:#C5DBF7;
+}
+
+.gridview,.detailsview {
+width:100%;
+}
+
+TblClass {
+border:[None][0];
+background-color:Green;
+font-family:Verdana;
+richness:50;
+padding:2px;
+}
+
+TblClass th {
+background-color:#000;
+color:#FFF;
+font-size:12pt;
+padding:5px;
+}
+
+TblClass td {
+border-bottom-color:Red;
+color:#FFF;
+font-size:10pt;
+}
+
+ENFTD {
+font-family:Verdana;
+font-size:14pt;
+font-weight:700;
+color:#06c;
+}
+
+.TextIndicator_TextBox1 {
+background-color:Gray;
+color:#FFF;
+font-family:Arial;
+font-size:x-small;
+font-style:italic;
+padding:2px 3px;
+}
+
+.BarIndicator_TextBox2_weak {
+color:Red;
+background-color:Red;
+}
+
+.BarIndicator_TextBox2_average {
+color:Blue;
+background-color:Blue;
+}
+
+.BarIndicator_TextBox2_good {
+color:Green;
+background-color:Green;
+}
+
+.BarBorder_TextBox2 {
+width:200px;
+vertical-align:middle;
+border-style:solid;
+border-width:1px;
+padding:2px;
+}
+
+.TextIndicator_TextBox3 {
+background-color:Blue;
+color:#FF0;
+font-size:small;
+font-variant:small-caps;
+padding:2px 3px;
+}
+
+.TextIndicator_TextBox3_Handle {
+width:16px;
+height:14px;
+background-image:url(images/Question.png);
+overflow:hidden;
+cursor:help;
+}
+
+.TextIndicator_TextBox1_Strength1 {
+background-color:Gray;
+color:#FFF;
+font-family:Arial;
+font-size:x-small;
+font-style:italic;
+font-weight:700;
+padding:2px 3px;
+}
+
+.TextIndicator_TextBox1_Strength2 {
+background-color:Gray;
+color:#FF0;
+font-family:Arial;
+font-size:x-small;
+font-style:italic;
+font-weight:700;
+padding:2px 3px;
+}
+
+.TextIndicator_TextBox1_Strength3 {
+background-color:Gray;
+color:#FFCAAF;
+font-family:Arial;
+font-size:x-small;
+font-style:italic;
+font-weight:700;
+padding:2px 3px;
+}
+
+.TextIndicator_TextBox1_Strength4 {
+background-color:Gray;
+color:Aqua;
+font-family:Arial;
+font-size:x-small;
+font-style:italic;
+font-weight:700;
+padding:2px 3px;
+}
+
+.TextIndicator_TextBox1_Strength5 {
+background-color:Gray;
+color:#93FF9E;
+font-family:Arial;
+font-size:x-small;
+font-style:italic;
+font-weight:700;
+padding:2px 3px;
+}
+
+.watermarked {
+height:20px;
+width:150px;
+border:1px solid #BEBEBE;
+background-color:#F0F8FF;
+color:gray;
+padding:2px 0 0 2px;
+}
+
+.LabelHeading1 {
+border-right:#fff thick solid;
+border-top:#fff thick solid;
+font-weight:700;
+font-size:12pt;
+border-left:#fff thick solid;
+color:#FFF;
+border-bottom:#fff thick solid;
+font-family:Verdana;
+background-color:#cd5c5c;
+text-align:center;
+padding:2px;
+}
+
+.LabelHeading2 {
+font-family:Verdana;
+font-size:12pt;
+font-weight:700;
+background-image:url(../Images/Table_bg.jpg);
+color:#000;
+}
+
+.PageHeading {
+font-family:Verdana;
+font-size:16pt;
+font-weight:700;
+background-image:url(../Images/Table_bg.jpg);
+color:#630;
+padding-bottom:2px;
+border-bottom:#999 thick solid;
+}
+
+.PageSH {
+font-family:Verdana;
+font-size:10pt;
+font-weight:700;
+background-image:url(../Images/Table_bg.jpg);
+color:#630;
+}
+
+.Form_table,.Form_table1 {
+border-right:2px;
+border-top:0;
+border-left:2px;
+padding-left:5px;
+font-size:12px;
+color:#000;
+border-bottom:0;
+font-family:Verdana;
+margin-top:0;
+border-color:ButtonFace;
+}
+
+.Form_table TH,.Form_table1 TH {
+border-right:1px;
+border-top:1px;
+font-weight:700;
+font-size:14px;
+border-left:1px;
+color:#FFF;
+border-bottom:1px;
+white-space:nowrap;
+background-color:#3e3e3e;
+text-align:left;
+font-family:Verdana;
+margin:0;
+padding:3px 2px 0;
+}
+
+.NormalTable
+{
+	FONT-SIZE: 9pt; 
+	PADDING-BOTTOM: 2px; 
+	VERTICAL-ALIGN: middle; 
+	WIDTH: 100%; 
+	COLOR: black; 
+	PADDING-TOP: 2px; 
+	FONT-FAMILY: 
+	Verdana; 
+	BACKGROUND-COLOR: white; 
+	TEXT-ALIGN: left;
+	border-left:2px;
+	border-right:2px;
+	border-color:Black; 
+ 
+}
+.btn {
+color:#050;
+font:bold 84% 'trebuchet ms',helvetica,sans-serif;
+background-color:#fed;
+border:1px solid;
+filter:progid:DXImageTransform.Microsoft.Gradient (GradientType=0,StartColorStr='#ffffffff',EndColorStr='#ffeeddaa');
+border-color:#696 #363 #363 #696;
+}
+
+.btn:hover {
+border-color:#c63 #930 #930 #c63;
+}
+#layer1 {
+	    visibility: hidden; width:90%;top:200px;position: absolute;left:40%;z-index:10000;height:150px
+	     }
+#msgCont{
+        width:700px;      margin:0px auto;        height:150px        }    
+#layer{
+    width:700px;background-color: #333;border: 3px double #ccc;padding: 10px;margin:0px auto;	color:#fff; float:left;	height:150px   }
+#layer ol li{  line-height:22px;   text-align:justify;  }
+#layer h3{ margin:0px 0px;       padding:0px 0px 5px 0px;       color:yellow;       border-bottom:dotted 1px #cdcdcd;       }
+    #close a {float: right;color:yellow;}
+	#close  a:hover  {   float: right; color:White;	    text-decoration:none;	    }
+	
+	#layer2 {
+	    visibility: hidden; width:90%;top:200px;position: absolute;left:40%;z-index:10000;height:150px
+	     }
+#msgCont2{
+        width:500px;      margin:0px auto;        height:150px        }    
+#layer3{
+    width:500px;background-color: #333;border: 3px double #ccc;padding: 10px;margin:0px auto;	color:#fff; float:left;	height:150px   }
+#layer3 ol li{  line-height:22px;   text-align:justify;  }
+#layer3 h3{ margin:0px 0px;       padding:0px 0px 5px 0px;       color:yellow;       border-bottom:dotted 1px #cdcdcd;       }
+    #close1 a {float: right;color:yellow;}
+	#close1  a:hover  {   float: right; color:White;	    text-decoration:none;	    }
+	
+	#layer2 {
+	    visibility: hidden; width:90%;top:200px;position: absolute;left:40%;z-index:10000;height:150px
+	     }
+#msgCont1{
+        width:700px;      margin:0px auto;        height:150px        }    
+#layer_1{
+    width:700px;background-color: #333;border: 3px double #ccc;padding: 10px;margin:0px auto;	color:#fff; float:left;	height:150px   }
+#layer_1 ol li{  line-height:22px;   text-align:justify;  }
+#layer_1 h3{ margin:0px 0px;       padding:0px 0px 5px 0px;       color:yellow;       border-bottom:dotted 1px #cdcdcd;       }
+    #close1 a {float: right;color:yellow;}
+	#close1  a:hover  {   float: right; color:White;	    text-decoration:none;	    }
+	.Button_Shape{display: inline-block; margin-top: 10px; margin-bottom:20px; padding: 27px 12px; background: #3FA9F5; color: #fff; font-size:14px; font-family:Georgia, "Times New Roman", Times, serif; font-weight:bold; border-radius: 2px;   cursor: pointer; text-align:center;}
+                .Button_Shape:hover{background: #E94C19 !important; color: #fff;}
+                .Button_Shape a{color:#FFF; text-decoration:none;}
+                .Button_Shape a:hover{color: #fff;}
+                
+                
+                .overlay {
+  position: fixed;
+  top: 100px;
+  bottom: 0;
+  left: 0;
+  right: 0;
+  transition: opacity 500ms;
+  visibility: hidden;
+  opacity: 0;
+  z-index:9999;
+}
+.overlay:target {
+  visibility: visible;
+  opacity: 1;
+}
+ .table.Bordered {
+	font-family: verdana,arial,sans-serif;
+	font-size:12px;
+	color:#333333;
+	border-width: 0px;
+	border-color: #666666;
+	border-collapse: collapse;
+}
+table.Bordered th {
+    border: 1px solid #f7f7f7;
+	padding: 8px;
+    font-size:16px;
+	background-color: #f3f3f3;
+}
+table.Bordered td {
+    border: 1px solid #f7f7f7;
+	font-size:14px;
+	padding: 8px;
+	background-color: #ffffff;
+	text-align :left ;
+}

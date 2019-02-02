@@ -1,0 +1,585 @@
+﻿.font {
+font-family:Verdana;
+font-size:small;
+color:Maroon;
+}
+
+.Heading {
+font-family:Verdana;
+font-size:10pt;
+font-weight:700;
+color:#966;
+}
+
+.SubHeading {
+font-family:Verdana;
+font-size:8.5pt;
+font-weight:700;
+color:#966;
+letter-spacing:.5px;
+}
+
+.linkbutton {
+font-family:Verdana;
+font-size:8pt;
+color:#400000;
+font-weight:700;
+}
+
+/*.table {
+font-family:Verdana;
+font-size:8pt;
+font-weight:700;
+color:#0082a8;
+border:[solid][1][White];
+border-width:2px;
+padding:5px;
+}
+
+.table td {
+font-family:Verdana;
+font-size:8pt;
+font-weight:700;
+color:#0082a8;
+padding:2px;
+}*/
+
+.alertMsg {
+font-family:Verdana;
+font-size:small;
+font-weight:700;
+color:Red;
+}
+
+.bg {
+background-image:url(Images/background_gradient.gif);
+background-repeat:repeat-x;
+background-position:top;
+margin:0;
+}
+
+.gridview td a {
+color:#3e3e3e;
+font:bold small "Verdana";
+text-decoration:none;
+padding:2px;
+}
+
+.gridview td a:hover {
+color:#000;
+font-weight:700;
+}
+
+.gridview th {
+background:#3B7089;
+color:#FFF;
+font:small "Verdana";
+font-weight:700;
+letter-spacing:0;
+text-align:center;
+padding:4px;
+}
+
+.gridview_Display th {
+background:#A0522D;
+color:#FFF;
+font:small "Verdana";
+font-weight:700;
+letter-spacing:0;
+text-align:center;
+padding:4px;
+}
+
+.gridview th a {
+color:#FFF;
+font:bold small "Segoe UI",Segoe,sans-serif;
+}
+
+.gridview th a:hover {
+color:#0F0;
+}
+
+.gridview tr.even td,.detailsview tr.even td {
+background:#f5f5f5;
+}
+
+.gridview tr.header {
+background:#C5DBF7;
+}
+
+.gridview,.detailsview {
+width:100%;
+}
+
+.gridview Pager {
+font-family:Verdana;
+font-size:XX-small;
+font-weight:400;
+color:#000;
+text-align:Center;
+}
+
+.dropdown {
+font-family:Verdana;
+font-size:10px;
+}
+
+.txtFontType {
+font-family:Verdana;
+font-size:xx-small;
+font-weight:400;
+color:#000;
+}
+
+.heading {
+font-family:Verdana, Arial;
+font-size:13px;
+color:#630;
+text-decoration:none;
+font-weight:700;
+letter-spacing:.5px;
+}
+
+.headingNew {
+font-family:Verdana, Arial;
+font-size:14pt;
+color:#630;
+text-decoration:none;
+font-weight:700;
+letter-spacing:.5px;
+}
+
+.smalltext_eng {
+font-family:Verdana, Arial;
+font-size:11px;
+color:#333;
+text-decoration:none;
+text-align:justify;
+padding-top:5pt;
+padding-right:5pt;
+padding-left:5pt;
+line-height:20px;
+letter-spacing:.5px;
+}
+
+.link2 {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:9pt;
+color:#069;
+text-decoration:none;
+line-height:20px;
+}
+
+link1 {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10pt;
+color:#069;
+text-decoration:none;
+line-height:20px;
+}
+
+.link2:hover {
+color:#F90;
+text-decoration:underline;
+}
+
+.subheading {
+font-family:Verdana, Arial;
+font-size:12px;
+font-weight:700;
+color:#036;
+text-decoration:none;
+}
+
+.lblFontType {
+font-family:Verdana;
+font-size:small;
+font-weight:700;
+color:#000;
+}
+
+.lblHeadingFontType {
+background-color:Maroon;
+font-family:Verdana;
+font-size:Medium;
+font-weight:700;
+color:#FFF;
+}
+
+.lblFontTypedisplay {
+font-family:Verdana;
+font-size:x-small;
+color:#000;
+}
+
+.lblMsgFontType {
+font-family:Verdana;
+font-size:x-small;
+font-weight:700;
+color:Red;
+}
+
+.lnkButton {
+font-family:Verdana;
+font-size:x-small;
+font-weight:700;
+color:Blue;
+}
+
+.go_table {
+border-right:0;
+border-top:0;
+font-size:xx-small;
+border-left:0;
+color:#000;
+background-color:#FFF;
+border-bottom:0;
+font-family:Verdana;
+}
+
+.go_table TH {
+border-right:0;
+border-top:0;
+border-left:0;
+border-bottom:0;
+font-family:Verdana;
+background:#3B7089;
+color:#FFF;
+font:small "Verdana";
+font-weight:700;
+letter-spacing:0;
+text-align:center;
+margin:0;
+padding:4px;
+}
+
+.go_table TD {
+background:#FFF;
+border-bottom:solid 1px #C5DBF7;
+color:#333;
+text-align:left;
+font-family:Verdana;
+font-size:11px;
+padding:1px 0 2px;
+}
+
+.textbox {
+font-family:verdana;
+font-size:8pt;
+font-weight:700;
+height:12pt;
+border-width:1px;
+}
+
+.TDH {
+background-image:url(../Images/bg-menu-main.png);
+font-family:Verdana;
+font-size:10pt;
+font-weight:700;
+color:#FFF;
+}
+
+.TDH1 {
+background-image:url(../Images/Nav_Bars_top.png);
+font-family:Verdana;
+font-size:10pt;
+font-weight:700;
+color:#FFF;
+}
+
+.modalBackground {
+background-color:Gray;
+filter:alpha(opacity=70);
+opacity:0.7px;
+}
+
+.input {
+width:79px;
+height:22px;
+background:url(btn-choose-file.gif) 0 0 no-repeat;
+display:block;
+overflow:hidden;
+cursor:pointer;
+}
+
+.input1 {
+position:relative;
+height:100%;
+width:auto;
+opacity:0;
+-moz-opacity:0;
+filter:progid:DXImageTransform.Microsoft.Alpha(opacity=0);
+}
+
+.validation {
+font-family:Tahoma;
+font-size:10px;
+color:Red;
+}
+
+.PanelHeading {
+font-family:Verdana;
+font-size:10px;
+color:Maroon;
+}
+
+.autocompleteplus_completionListElement {
+position:absolute;
+z-index:6000;
+width:172px;
+visibility:hidden;
+margin-left:-1px;
+margin-top:0;
+background-color:#F1F0F0;
+color:#FFF;
+border:buttonshadow;
+cursor:'default';
+max-height:11em;
+overflow:auto;
+text-align:left;
+list-style-type:none;
+border-color:#000;
+border-style:solid;
+border-width:1px;
+padding:0;
+}
+
+.autocompleteplus_highlightedListItem {
+list-style-type:none;
+font-family:Tahoma;
+font-size:11px;
+color:#FFF;
+text-decoration:none;
+background-color:#777;
+cursor:hand;
+overflow:auto;
+text-align:left;
+line-height:20px;
+margin:0;
+padding:0 0 0 3px;
+}
+
+.autocompleteplus_listItem {
+line-height:20px;
+background-color:#F1F0F0;
+font-family:Tahoma;
+font-size:11px;
+color:#000;
+cursor:default;
+text-decoration:none;
+text-align:left;
+margin:0;
+padding:0 0 0 3px;
+}
+
+.autocomplete_completionListElement {
+border-right:buttonshadow 1px solid;
+border-top:buttonshadow 1px solid;
+overflow:auto;
+border-left:buttonshadow 1px solid;
+color:windowtext;
+border-bottom:buttonshadow 1px solid;
+list-style-type:none;
+height:200px;
+text-align:left;
+margin:0;
+}
+
+.autocomplete_highlightedListItem {
+color:#000;
+background-color:#ff9;
+padding:1px;
+}
+
+.autocomplete_listItem {
+color:windowtext;
+background-color:window;
+padding:1px;
+}
+
+.legend {
+color:Red;
+font-size:13px;
+font-style:normal;
+font-weight:700;
+}
+
+.headerBg {
+background-attachment:scroll;
+background-image:url(../Images/InnerBG.jpg);
+background-repeat:repeat-x;
+background-position:left top;
+}
+
+.bottomBg {
+background-attachment:scroll;
+background-image:url(../Images/Bottom_Bg.gif);
+background-repeat:repeat-x;
+background-position:left top;
+}
+
+.bottomText {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:12px;
+color:#333;
+letter-spacing:0.04em;
+}
+
+.links:hover {
+color:#333;
+background-color:#EAEAEA;
+border-right-width:6px;
+border-right-style:double;
+border-right-color:#778B86;
+letter-spacing:0.04em;
+display:block;
+padding-left:10pt;
+line-height:28px;
+height:28px;
+}
+
+.sublink {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10.5px;
+color:#D6D6D6;
+text-decoration:none;
+letter-spacing:0.04em;
+display:block;
+height:28px;
+padding-left:10pt;
+line-height:28px;
+}
+
+.sublink:hover {
+color:#FCFCFC;
+}
+
+.text {
+font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+font-size:12.5px;
+color:#000;
+letter-spacing:0.04em;
+line-height:20px;
+padding-right:6pt;
+padding-left:6pt;
+text-align:justify;
+}
+
+.textlinks {
+font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+font-size:12.5px;
+color:#000;
+letter-spacing:0.04em;
+line-height:20px;
+text-align:justify;
+text-decoration:none;
+}
+
+.textlinks:hover {
+color:#F60;
+}
+
+.tabHeading {
+font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+font-weight:700;
+color:#000;
+letter-spacing:.05em;
+line-height:26px;
+}
+
+li {
+list-style-position:outside;
+list-style-image:url(../Images/Bullet.gif);
+line-height:22px;
+}
+
+.tab {
+padding-top:15pt;
+padding-bottom:15pt;
+}
+
+.linktop {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:11px;
+font-weight:700;
+color:#FFF;
+text-decoration:none;
+}
+
+.MainLinks {
+font-family:Tahoma, Verdana, Arial, Helvetica, sans-serif;
+font-size:10px;
+font-weight:700;
+color:#FFF;
+letter-spacing:.05em;
+line-height:26px;
+}
+
+.InnerHead {
+background-image:url(../CollegeProfile_Img/tabrt_blank.jpg);
+background-repeat:repeat;
+font-family:Verdana;
+font-size:9pt;
+font-weight:700;
+color:#FFF;
+padding:5px;
+}
+
+.NameHead {
+font-family:Verdana;
+font-size:14pt;
+font-weight:700;
+color:#24518A;
+}
+
+.PageSH {
+font-family:Verdana;
+font-size:10pt;
+font-weight:700;
+background-image:url(../Images/Table_bg.jpg);
+color:#630;
+}
+
+.gridview td,.gridview_Display td {
+background:#fafafa;
+border-bottom:solid 1px #dddcdc;
+color:#333;
+text-align:left;
+font-family:Verdana;
+font-size:11px;
+padding:3px 2px;
+}
+
+txtFontTypeHindi,.lblHindiFontType {
+font-family:Kruti Dev 10px;
+font-size:Medium;
+font-weight:400;
+color:#000;
+}
+
+.links,.nonlink {
+font-family:Verdana, Arial, Helvetica, sans-serif;
+font-size:10.5px;
+font-weight:700;
+color:#FFF;
+text-decoration:none;
+letter-spacing:0.04em;
+display:block;
+height:28px;
+padding-left:10pt;
+line-height:28px;
+}
+
+.linktop:hover,.MainLinks:hover {
+color:#C4C4C4;
+text-decoration:none;
+}
+
+.lnkbtnLink
+{
+	font-family:Tahoma;
+	font-size:10pt;
+	font-weight:700;
+	color:Maroon  ;
+}      
